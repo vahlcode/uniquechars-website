@@ -16,6 +16,8 @@ class App extends Component {
     const GET_STARTED = document.querySelector("#read")
     const INSTRUCTIONS = document.querySelector(".instructions")
 
+    console.log(window.innerWidth, window.innerHeight);
+
     GET_STARTED.addEventListener("click", () => {
       this.setState({draw: true}, () => {
         INSTRUCTIONS.scrollIntoView(false)
