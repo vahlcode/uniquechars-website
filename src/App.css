@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --primary-color: #ff3355;
+  --primary-color-light: #ee6f84;
+  --background-color: #131212;
+  --font-color: #fff6f7;
+}
+
+.App.draw {
+  overflow: auto;
+}
+
+.App {
+  background: var(--background-color);
+  border: 10px solid var(--primary-color);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
