@@ -1,6 +1,6 @@
 {
-  "name": "r-c-landing",
-  "description": "Easily integrate estimated reading time in your JavaScript apps.",
+  "name": "uniquechars-landing",
+  "description": "Generate random strings and numbers from from strings or group of numbers.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

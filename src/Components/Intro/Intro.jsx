@@ -18,9 +18,9 @@ export class Intro extends Component {
         const {draw} = this.state
         return(
             <div className={`intro${draw ? " draw" : ""}`}>
-                <h5>READ COUNT</h5>
+                <h5>UNIQUE CHARS</h5>
                 <h1>
-                    Easily integrate estimated reading time in your JavaScript apps.
+                   Generate random strings and numbers from from strings or group of numbers.
                 </h1>
                 <button id="read">
                     <span>Get Started</span>

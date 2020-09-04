@@ -8,7 +8,7 @@
 }
 
 .App .intro.draw>h1 {
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 30px;
 }
 
@@ -21,6 +21,7 @@
     align-items: flex-start;
     flex-direction: column;
     transition: .8s;
+    overflow: hidden;
 }
 
 .App .intro>h5 {
@@ -28,24 +29,13 @@
 }
 
 .App .intro>h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 30px;
 }
 
 .App .intro>button {
-    display: inline-block;
     padding: 15px 30px;
-    background: var(--primary-color);
-    border: 2px solid transparent;
-    font-size: 16px;
-    position: relative;
-    z-index: 1;
-}
-
-.App .intro>button {
-    display: inline-block;
-    padding: 15px 30px;
-    background: var(--primary-color);
+    background: var(--gradient-color);
     border: 2px solid transparent;
     font-size: 16px;
     position: relative;
@@ -54,7 +44,9 @@
 
 .App .intro>button:hover {
     background: transparent;
-    border: 2px solid var(--primary-color);
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-image: var(--gradient-color) 1 100%;
     color: var(--primary-color);
 }
 
@@ -114,13 +106,12 @@
     
     .App .intro>h1 {
         font-size: 70px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
     
     .App .intro>button {
-        display: inline-block;
         padding: 15px 30px;
-        background: var(--primary-color);
+        background: var(--gradient-color);
         border: 2px solid transparent;
         font-size: 16px;
         position: relative;
@@ -129,7 +120,9 @@
     
     .App .intro>button:hover {
         background: transparent;
-        border: 2px solid var(--primary-color);
+        border-left-width: 2px;
+        border-left-style: solid;
+        border-image: var(--gradient-color) 1 100%;
         color: var(--primary-color);
     }
     
